@@ -65,3 +65,70 @@ An interactive Power BI dashboard was created to help stakeholders—such as tra
 - DAX-powered calculated columns for sorting and analysis
 
 ---
+
+# Project Structure — U.S. Road Accident Analysis
+
+This document outlines the folder and file structure of the project, including data, notebooks, dashboard visuals, and documentation.
+
+├── Cleaned Data/
+│   └── cleaned_dataset.csv.csv
+├── Raw Data/
+│   └── road_accident_data.csv
+├── Dashboard Icons/
+│   ├── Accedent_Icon.png
+│   ├── Driver_Icon.png
+│   ├── Emergency_Icon.png
+│   └── Time_Icon.png
+├── Milestone_1_EDA&Data_Cleaning.ipynb
+├── Milestone_2_Road_Accident_Dashboard.pbix
+├── README.md
+
+
+---
+
+## Root Directory
+Contains the main components of the project:
+
+---
+
+## Cleaned Data
+Contains the processed dataset after data cleaning.
+
+- `cleaned_Dataset.csv` – Cleaned and ready-to-use dataset for analysis and dashboarding.
+
+---
+
+## Raw Data
+Contains the original dataset before cleaning.
+
+- `road_accident_data.csv` – Raw accident data file with missing values and inconsistencies.
+
+---
+
+## Dashboard Icons
+Holds custom icons used in the Power BI dashboard for visual enhancement.
+
+- `Accedent_Icon.png`
+- `Driver_Icon.png`
+- `Emergency_Icon.png`
+- `Time_Icon.png`
+
+---
+
+## Jupyter Notebook
+Data exploration, preprocessing, and cleaning logic.
+
+- `Milestone_1_EDA&Data_Cleaning.ipynb` – Notebook for EDA, missing value treatment, outlier detection, and data saving.
+
+---
+
+## Power BI Report
+Interactive dashboard for accident analysis.
+
+- `Milestone_2_Road_Accident_Dashboard.pbix` – Power BI report with multiple pages and DAX modeling.
+
+---
+
+## Documentation
+- `README.md` – Project overview, methodology, dashboard description, and key insights.
+
