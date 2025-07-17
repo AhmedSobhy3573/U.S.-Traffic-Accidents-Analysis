@@ -70,6 +70,8 @@ An interactive Power BI dashboard was created to help stakeholders—such as tra
 
 This document outlines the folder and file structure of the project, including data, notebooks, dashboard visuals, and documentation.
 
+
+```
 ├── Cleaned Data/
 │   └── cleaned_dataset.csv.csv
 ├── Raw Data/
@@ -82,7 +84,7 @@ This document outlines the folder and file structure of the project, including d
 ├── Milestone_1_EDA&Data_Cleaning.ipynb
 ├── Milestone_2_Road_Accident_Dashboard.pbix
 ├── README.md
-
+```
 
 ---
 
